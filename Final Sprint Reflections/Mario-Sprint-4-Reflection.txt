@@ -1,0 +1,20 @@
+During this sprint, my contributions focused on making minor changes to improve the
+visual appeal and usability of our web application. While the previous sprint emphasized
+implementing functionality and a lot of the style of our page, we identified areas where
+the design could be more polished. My efforts this time revolved around refining our code
+and layout to create a better user experience.
+
+Although these changes were incremental, they contributed to making the interface cleaner and more
+user-friendly. I also made small design updates to our navigation bar and experimented with
+implementing a "Resources" page, though it remains a work in progress.
+
+One of the challenges I encountered was working with CSS. It continues to be a tool I find
+difficult to master, as even seemingly simple changes often require significant effort to execute
+correctly. For instance, while trying to style the "Resources" page and make visual tweaks across
+the application, I struggled to align my designs with my original vision. This process sometimes
+took longer than anticipated, which highlighted the need for improvement in my CSS skills.
+
+Despite these challenges, I gained valuable insights into design and explored frameworks like
+Bootstrap, which helped streamline some aspects of the styling process. Moving forward, I plan to
+dedicate more time to improving my CSS proficiency and experimenting with additional design tools
+to enhance both the quality and efficiency of my contributions.

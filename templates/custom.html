@@ -1,0 +1,34 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Customize Account
+{% endblock %}
+
+{% block main %}
+<div class="add-box">
+    <h4>Personal Information</h4>
+    <form action="/custom" method="post">
+        <div class="mb-3">
+            <label for="full_name">Full Name: </label>
+            <input autocomplete="off" autofocus class="form-control mx-auto w-auto d-inline-block" name="full_name" placeholder="Full Name" type="text" id="full_name">
+        </div>
+        <div class="mb-3">
+            <label for="current_job">Current Job: </label>
+            <input class="form-control mx-auto w-auto d-inline-block" name="current_job" placeholder="Company Name" type="text">
+        </div>
+        <div class="mb-3">
+            <label for="current_salary">Current Salary: </label>
+            <input class="form-control mx-auto w-auto d-inline-block" name="current_salary" placeholder="Salary" type="number">
+        </div>
+        <div class="mb-3">
+            <label for="current_location">Current Location: </label>
+            <input class="form-control mx-auto w-auto d-inline-block" name="current_location" placeholder="Location" type="text">
+        </div>
+        <div class="mb-3">
+            <label for="dob">Date of Birth: </label>
+            <input class="form-control mx-auto w-auto d-inline-block" name="dob" placeholder="Date Applied" type="date">
+        </div>
+        <button class="btn btn-primary" type="submit">Submit</button>
+    </form>
+</div>
+{% endblock %}

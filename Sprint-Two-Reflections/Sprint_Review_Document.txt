@@ -1,0 +1,27 @@
+During this sprint, the team and I made considerable progress on our project’s functionality and user experience.
+We successfully set up a database to store user information, including personal details, usernames, and hashed passwords,
+allowing secure login capabilities. We implemented a password reset feature for users who forget their login credentials,
+enhancing the site's usability. Additionally, we began working on the core functionality of our project: tracking job applications.
+Users can now enter their job application details, which are stored and displayed in a portfolio format. Though it is currently in
+a static state, we plan to build on this foundation to make the portfolio more interactive and personalized.
+
+To add value beyond the basics, we’ve expanded user registration to include fields for personal and job-related information. This
+data will contribute to the analytics aspect of our project, where users can later visualize their career progression. While the
+design remains minimal, the team and I have started exploring CSS, JavaScript, and Bootstrap to improve the website’s appearance
+and interactivity.
+
+A primary challenge this sprint was establishing a smooth workflow with GitLab and VS Code. Due to network restrictions on campus 
+machines, many of us had difficulty connecting the two, which initially hindered our collaboration. After troubleshooting, we
+resolved these issues and were able to work effectively as a team.
+
+Our stakeholder was pleased with the functionality we’ve implemented, especially considering that most of us are relatively new
+to web development. However, she expressed concerns about the website’s visual presentation, noting that it felt too bland with
+an excess of white space. She recommended adjusting the borders and adding more color to improve aesthetics. Specifically, she
+suggested enhancements to the homepage and portfolio, such as adding a border to the portfolio table and making it interactive.
+Additionally, she requested a more welcoming contact page with brief bios and possibly photos of each team member to establish
+a stronger connection with users.
+
+Based on this feedback, our focus in the next sprint will shift toward improving the website’s visual appeal. We’ll work to
+fill empty spaces, introduce colors and borders, and refine the overall layout to provide a more engaging and user-friendly
+experience. This emphasis on design will help us deliver a product that is not only functional but also inviting and visually
+appealing to users.

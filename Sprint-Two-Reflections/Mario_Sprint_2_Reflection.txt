@@ -1,0 +1,21 @@
+In this sprint, I contributed significantly to our project’s development. I implemented a feature that
+allows a users to change their password if they forget it. Additionally, I secured parts of our application by creating
+a function that restricts access to logged-in users only. I also set up the database to store usernames and hashed
+passwords upon signup, providing a secure foundation for user authentication. To support session management, I added a
+logout feature. One of my most important contributions was developing the core job-tracking functionality, enabling users
+to log and view their job applications in a portfolio format.
+
+While I didn’t face major individual challenges, it was initially difficult for our team to collaborate due to GitLab 
+connectivity issues in VS Code, which delayed some of our workflows. Thankfully, we resolved these technical issues and
+were able to collaborate effectively afterward.
+
+Throughout this sprint, I gained practical skills in SQL, as well as some foundational knowledge
+in HTML, CSS, and Bootstrap. This project is also my first exposure to web development with Python and Flask, so I’m learning
+the ropes as I go. While I’m excited by the progress, I recognize that there is much to improve on, especially in front-end
+development. I’d like to build stronger skills in HTML, CSS, and, notably, JavaScript, to make our application more dynamic.
+Much of our current design is static, so one of our primary goals for the next sprint is to enhance interactivity by implementing
+JavaScript features.
+
+Looking ahead, another main objective of mine is to expand functionality by allowing users to edit the status of their job applications and
+receive email notifications for upcoming interviews. This will not only improve user engagement but also make the app more helpful
+for tracking and organizing job application processes.

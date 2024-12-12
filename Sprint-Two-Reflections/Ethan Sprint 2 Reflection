@@ -1,0 +1,23 @@
+During this sprint we focused on furthering the existing foundation of our website. I
+have successfully added a profile page feature this sprint, which works as an extension
+of our database and login/registering features. This profile page will likely look
+different in future versions of the project, but what we do have is a framework
+that allows us to track the history of changes to the profile while only displaying
+the most recent entry. A large part of the creation of our project has been modularity
+and ensuring that the parts we make will be able to be applied and expanded as the 
+development continues.
+
+I have also created UML documentation for our group to allow for a quick understanding
+of our flow and priotities at a glance. We have all worked now to lay down the groundwork
+for the rest of our project, and I will soon begin figuring how we want to implement the
+sheduling of the job interviews. This will be the next major accomplishment for our group,
+and I will be using my work on the website to easily adapt to these new ideas.
+
+I have been able to continue my learning about Python/Flask, CSS, and especially SQL
+databases. This type of knowledge will be very useful for future jobs and projects.
+While we may not work with Flask specifically in the future, knowing how SQL databases
+operate and being able to work with them will be very useful for learning later 
+coding techniques. I am excited to continue developing our project and make a final
+product we will be proud of.
+
+

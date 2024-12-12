@@ -1,0 +1,18 @@
+During this sprint, our team focused on finalizing the remaining features and improving
+the overall quality of the application. Our contributions revolved around two primary areas:
+refining the visual design and completing the integration of the Google API functionality.
+
+Improving its overall structure and user-friendliness, and some adjustments to the navigation
+bar. Additionally, I worked on implementing a "Resources" page. Although the page is not yet
+complete, the groundwork for its integration has been set and will be completed as soon as
+tomorrow.
+
+In terms of functionality, we finalized settings related to the Google API. These tools played a significant
+role in our project, enabling us to implement features that would have otherwise required complex systems
+or significant development effort. This experience not only added value to the application but also provided
+me with hands-on knowledge that will be relevant in workplace scenarios. However, the API isn't working properly
+right now, and need to make some final adjustments to it.
+
+Beyond these accomplishments, we gained valuable experience in website development and explored alternative
+strategies for implementing features efficiently. This sprint provided me with a strong foundation in web
+development and a practical understanding of API integrations.

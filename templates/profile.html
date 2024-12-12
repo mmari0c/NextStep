@@ -1,0 +1,59 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Profile
+{% endblock %}
+
+{% block main %}
+    <div class="profile-box">
+         <div style="text-align: center; margin-bottom: 20px;">
+        {% if info[0]['profile_picture'] %}
+            <div style="text-align: center; margin-bottom: 20px;">
+                <img src="{{ url_for('static', filename=info[0]['profile_picture'].replace('static/', '').replace('\\','/')) }}" 
+                     alt="Profile Picture" style="width:150px; height:150px; border-radius:50%;">
+            </div>
+        {% else %}
+            <div style="text-align: center; margin-bottom: 20px;">
+                <img src="{{ url_for('static', filename='default_profile.jpg') }}" 
+                 alt="Profile Picture" style="width:150px; height:150px; border-radius:50%;">
+            </div>
+        {% endif %}
+
+        <!-- Profile Information Section -->
+        
+        <div class="profile-field">
+            <h3>{{ info[0]['full_name'] or 'N/A' }}</h3>
+        </div>
+
+        <table class="profile-table">
+            <tr>
+                <th>Current Employer</th>
+                <td>{{ info[0]['current_job'] or 'N/A' }}</td>
+            </tr>
+            <tr>
+                <th>Current Salary</th>
+                <td>{{ info[0]['current_salary'] or 'N/A' }}</td>
+            </tr>
+            <tr>
+                <th>Current Location</th>
+                <td>{{ info[0]['current_location'] or 'N/A' }}</td>
+            </tr>
+            <tr>
+                <th>Date of Birth</th>
+                <td>{{ info[0]['dob'] or 'N/A' }}</td>
+            </tr>
+        </table>
+
+    <form id="profile-picture-form" method="post" enctype="multipart/form-data" style="display: none;">
+        <input type="file" name="file" accept="image/*" required onchange="document.getElementById('profile-picture-form').submit();">
+    </form>
+    <script>
+        document.querySelector('.profile-box img').addEventListener('click', function() {
+            document.querySelector('input[name="file"]').click();
+        });
+    </script>
+
+    </div>
+    
+
+{% endblock %}

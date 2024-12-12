@@ -1,0 +1,14 @@
+In this sprint, our primary goal was to lay the foundation for our project by getting the website up and running, even if it was just in a basic form. This initial stage was essential 
+to ensure that we had a functioning framework to build upon on our next sprint. Many of us, myself included, have more experience working with languages like C/C++, so transitioning to
+web development presented a new challenge. We had to quickly familiarize ourselves with different tools and technologies that were very much outside of our comfort zone. This was especially 
+true when working with HTML, CSS, and Flask, which none of us had much experience with prior to this project. While we are familar with GitLab, it was particularly frustrating at times due
+to its differences from GitHub, which I myself am more accustomed to. Learning how to use GitLab effectively with VS Code for version control and collaboration was one of the initial hurdles
+we faced.
+
+On the positive side, this sprint was a great learning experience for everyone involved. We not only gained a deeper understanding of how HTML and CSS function in web development but also
+learned how Python can be used to make a website interactive. Additionally, learning how Flask works to organize and manage our backend code. These are skills that we didn’t have before, and
+now we can see how they all fit together in the larger picture of our project.
+
+Looking ahead, our next sprint will focus on implementing the core functionality of the website, which revolves around organizing job applications. With the foundational work done, I’m confident
+that we can now make significant progress. However, one area that could be improved is our communication and planning. We occasionally ran into roadblocks because of unclear task delegation or
+confusion about priorities, so improving our workflow will help us move more efficiently in the next sprint.

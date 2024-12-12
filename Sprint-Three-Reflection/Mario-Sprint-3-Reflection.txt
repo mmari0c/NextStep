@@ -1,0 +1,29 @@
+During this sprint, I focused heavily on improving the visual appeal of our web application.
+In the previous sprint, we implemented significant functionality, but the design lacked the
+polish we desired. This time, I aimed to enhance the user experience and make the interface
+more visually appealing. One of my key contributions was revamping the table layout, which
+initially appeared plain and unstructured. I redesigned it to improve both its aesthetics
+and usability. Additionally, I implemented a new feature within the table that allows users to
+update their application status to "Interview," "Rejected," or "Offer."
+
+Another enhancement I worked on was improving error messaging. Previously, if users made a mistake,
+they were redirected to a different route where an error message was displayed. In this sprint, I 
+modified the behavior so that error messages now appear on the same route, streamlining the user experience.
+ I also introduced an alert system to notify users when they successfully log in or make changes.
+
+Beyond functionality, I rebranded the application, renaming it "NextStep" and adding a logo to the title
+for a cohesive identity. I also merged the About and Contact pages into a single "About Us" page, which I
+redesigned with a modern, clean aesthetic. While I’m proud of the progress, I still need to add our contact
+information to this section.
+
+The main challenge I encountered this sprint was working with CSS. It’s been a difficult tool for me to master.
+While I often have a clear vision of the design I want to achieve, implementing it precisely as imagined has been
+a struggle, often taking hours to complete seemingly simple changes. For example, creating the alert system and
+designing the "About Us" page were particularly time-consuming. I originally envisioned a sliding page with images
+and team information, but I couldn’t get it to display as desired.
+
+This experience highlighted the need to improve my CSS skills and overall design capabilities. However, despite the
+challenges, I’ve learned a great deal about CSS and explored tools like Bootstrap, which significantly simplify the
+design process. Moving forward, I plan to continue honing my CSS skills and seek out additional resources to improve
+both the efficiency and quality of my work.
+

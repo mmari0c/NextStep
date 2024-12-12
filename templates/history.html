@@ -1,0 +1,39 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Home Page
+{% endblock %}
+
+{% block main %}
+    <div style="display: flex; align-items: center; padding-top: 15px; padding-bottom: 10px;">
+        <h2 style="margin-right: auto;">Job Application History</h2>
+    </div>
+    <table class="table">
+        <thead class="thead-dark">
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Job Title</th>
+            <th scope="col">Company</th>
+            <th scope="col">Salary</th>
+            <th scope="col">Application Status</th>
+            <th scope="col">Date Applied</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for application in applications %}
+            <tr>
+                <th scope="row">{{ loop.index }}</th>
+                <td>{{ application.job_title }}</td>
+                <td>{{ application.company }}</td>
+                <td>${{ application.salary }}</td>
+                <td>
+                    <span style="color: {% if application.app_status == 'Offer' %}#018749{% elif application.app_status == 'Rejected' %}#AA0000{% else %}black{% endif %};">
+                        {{ application.app_status }}
+                    </span>
+                </td>
+                <td>{{ application.date }}</td>
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table> 
+{% endblock %}

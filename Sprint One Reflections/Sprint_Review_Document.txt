@@ -1,0 +1,24 @@
+During this sprint, our primary focus was on developing the foundational framework for our project.
+This framework, now available on our GitLab repository, will serve as the backbone for our future
+development efforts. The process of setting up this structure required a significant amount of time
+dedicated to learning new tools and frameworks, specifically Flask and how it interacts with Python.
+As a result, we conducted in-depth research into Python’s virtual environments and deployment processes,
+areas that were previously unfamiliar to us.
+
+Because so much time was devoted to understanding the technical mechanics behind creating an initial website,
+progress on some of the more complex stories for this sprint was slower than anticipated. Many of these tasks
+require more advanced code, which depends on having a more complete website structure in place. Nevertheless,
+we succeeded in building a functional framework that will guide our work for the rest of the semester. As we 
+move forward, we will continue learning new techniques and improving our implementation strategies.
+
+Our biggest roadblock during this sprint was the team's varied levels of experience with web development and
+the disparity in knowledge among group members. This made it challenging for everyone to work at the same pace,
+but it also motivated us to spend extra time learning the necessary technologies. We are committed to ensuring
+that each team member gains the required skills to successfully contribute to building the website system. Our
+demo was a valuable exercise, as it provided us with a working example of the website’s origin and allowed us to
+receive initial feedback.
+
+Although we presented a demo to our client, the first sprint was primarily focused on learning new technology
+and setting up the website’s structural framework. Because of this, the feedback we received wasn’t as comprehensive
+or actionable as we hoped. However, in the next sprint, our focus will shift toward implementing the core features of
+the project, and we expect to receive more detailed and constructive feedback from our client at that time.

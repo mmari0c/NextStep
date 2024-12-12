@@ -1,0 +1,20 @@
+During this sprint, the group primarily focused on setting up the calendar in 
+the webpage and connecting it to the users google calendar, which would also be 
+used to send the user reminders for any upcoming interviews they have. We also 
+worked on the visuals of the website and made slight changes that made the 
+website more appealing, such as changing the website's name, correctly aligning 
+some headers, and displaying the users account in an organized frame. 
+
+Our biggest roadblock during this sprint was having to figure out how to put a 
+calendar in our website that would allow the user to view upcoming events. At 
+first we tried putting a calendar in manually, but after struggling with that 
+we found a google api that could connect the user's information from our 
+program and display it in their google calendar.
+
+Since the main priority this sprint was getting the calendar working and 
+sending out reminders, we were not able to improve our websites visual as much 
+as we had originally hoped to, especially with the roadblocks we encountered 
+working on the calendar. That being said our client's main feedback point was 
+improving the websites overall look, some examples they gave was adding more 
+color instead of having a basic white page, and adding images/drawing/icons or 
+something along those lines.

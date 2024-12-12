@@ -1,0 +1,14 @@
+In this sprint, our team concentrated on getting the user interface of the website more user friendly. 
+Specifically, we focused on setting up our front end to make our website more eye pleasing. We also added an expanded tab to make things more organized. I'm pleased to report that our team accomplished these goals effectively, marking a solid step forward in the project’s progress. 
+This initial achievement laid the groundwork for further development as we continue to refine the user experience and build out the core features.
+I spent a large portion of the sprint learning new tools and frameworks because I chose to take on full-stack duties, which was satisfying and demanding. 
+I decided to study Flask, a Python web framework that is essential to building our web application's backend.  
+My learning also extended to HTML and Python, key technologies that will enable us to design the user interface and handle server-side logic. 
+Although the process required significant time and effort, I am confident that this knowledge will be invaluable as we move forward. 
+This sprint's learning curve was steep, but mastering these technologies will prove to be an excellent foundation for future website development tasks.
+While the team successfully met our initial objectives, I encountered several personal challenges during this sprint. 
+Controlling my procrastination was one of the biggest challenges I had. In the early stages, I found myself occasionally putting off work because there were no weekly goals or pressing deadlines, which affected my total productivity. 
+I know I can do better in this area, and I'm determined to hone my time management techniques so I can be consistently involved in upcoming sprints.
+I am enthusiastic about the project's and our team's possibilities going forward. 
+
+Although we have shown that we are capable of building and working together efficiently, we can always improve, especially when it comes to meeting deadlines and regularly contributing to the project. 

@@ -1,0 +1,45 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Home Page
+{% endblock %}
+
+{% block main %}
+    <div style="display: flex; align-items: center; padding-top: 15px; padding-bottom: 10px;">
+        <h2 style="margin-right: auto;">Job Applications</h2>
+        <button type="button" class="btn btn-secondary btn-sm" onclick="window.location.href='/add';">Add Application</button>
+    </div>
+    <table class="table">
+        <thead class="thead-dark">
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Job Title</th>
+            <th scope="col">Company</th>
+            <th scope="col">Salary</th>
+            <th scope="col">Application Status</th>
+            <th scope="col">Date Applied</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for application in applications %}
+            <tr>
+                <th scope="row">{{ loop.index }}</th>
+                <td>{{ application.job_title }}</td>
+                <td>{{ application.company }}</td>
+                <td>${{ application.salary }}</td>
+                <td>
+                    <form action="{{ url_for('update_status', application_id=application.id) }}" method="post">
+                        <select name="app_status" onchange="this.form.submit()" style="color: {% if application.app_status == 'Offer' %}#018749{% elif application.app_status == 'Rejected' %}#AA0000{% elif application.app_status == 'Interview' %}#FEBE10{% endif %};">
+                            <option value="Applied" {% if application.app_status == 'Applied' %}selected{% endif %}>Applied</option>
+                            <option value="Interview" {% if application.app_status == 'Interview' %}selected{% endif %}>Interview</option>
+                            <option value="Offer" {% if application.app_status == 'Offer' %}selected{% endif %}>Offer!</option>
+                            <option value="Rejected" {% if application.app_status == 'Rejected' %}selected{% endif %}>Rejected</option>
+                        </select>
+                    </form>
+                </td>
+                <td>{{ application.date }}</td>
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table> 
+{% endblock %}
