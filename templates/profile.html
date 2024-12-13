@@ -25,6 +25,25 @@
             <h3>{{ info[0]['full_name'] or 'N/A' }}</h3>
         </div>
 
+        <div class="profile-stats">
+            <div class="stat-item">
+            <span class="stat-label">Offers:</span>
+            <span class="stat-value" style="color: #018749;">{{ offer_count }}</span>
+            </div>
+            <div class="stat-item">
+            <span class="stat-label">Interviews:</span>
+            <span class="stat-value" style="color: #FEBE10;">{{ interview_count }}</span>
+            </div>
+            <div class="stat-item">
+            <span class="stat-label">Rejections:</span>
+            <span class="stat-value" style="color: #AA0000;">{{ rejected_count }}</span>
+            </div>
+            <div class="stat-item">
+            <span class="stat-label">Applications:</span>
+            <span class="stat-value" style="color: #0000AA;">{{ application_count }}</span>
+        </div>
+
+
         <table class="profile-table">
             <tr>
                 <th>Current Employer</th>
