@@ -247,3 +247,22 @@ li {
     flex-direction: column;
     text-align: center;
 }
+
+.profile-stats {
+    display: flex;
+    justify-content: center;
+    font-size: small;
+    margin-bottom: 20px;
+    }
+    .stat-item {
+    margin: 0 15px;
+    text-align: center;
+    }
+    .stat-label {
+    font-weight: bold;
+    display: block;
+    }
+    .stat-value {
+    font-size: 1.2em;
+    }
+
